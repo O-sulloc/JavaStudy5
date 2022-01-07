@@ -1,15 +1,15 @@
 package com.jh.s6.student;
 
-public class StudentDTO {
+public abstract class StudentDTO {
 
 	String name;
 	int num;
 	int kor;
 	int eng;
 	int math;
+	int total;
 
-	public StudentDTO(String name) {
-		this.name = name;
-
+	public abstract int setTotal() {
+		int total;
 	}
 }

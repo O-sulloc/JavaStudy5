@@ -3,19 +3,22 @@ package com.jh.s6.student;
 public class StudentMain {
 
 	public static void main(String[] args) {
-		StudentDTO studentDTO = new StudentDTO();
 		StudentDTOSecond ss = new StudentDTOSecond();
-		ss.history = 50;
-		ss.eng = 90;
+
+		ss.kor = 40;
+		ss.eng = 3;
+		ss.math = 3;
+		ss.history = 44;
+
+		ss.setTotal();
 
 		StudentDTOThird st = new StudentDTOThird();
-		st.physics = 13;
-		st.kor = 55;
 
-		StudentDTOFourth sf = new StudentDTOFourth();
-		sf.math = 4;
-		sf.music = 50;
-		sf.physics = 99;
+		st.kor = 40;
+		st.eng = 6;
+		st.math = 4;
+		st.physics = 64;
+		st.setTotal();
 
 	}
 }
