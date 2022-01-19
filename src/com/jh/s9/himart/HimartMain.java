@@ -1,9 +1,10 @@
 package com.jh.s9.himart;
 
+import com.jh.s8;
+
 public class HimartMain {
 
 	public static void main(String[] args) {
-
 		Computer c = new Computer();
 		c.company = "Apple";
 		c.brand = "Mac";

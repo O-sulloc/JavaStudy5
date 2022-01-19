@@ -18,7 +18,7 @@ public class StudentMain {
 		st.eng = 6;
 		st.math = 4;
 		st.physics = 64;
-		st.setTotal();
+	//	st.setTotal();
 
 	}
 }

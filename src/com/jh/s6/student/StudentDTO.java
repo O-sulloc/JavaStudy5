@@ -9,7 +9,5 @@ public abstract class StudentDTO {
 	int math;
 	int total;
 
-	public abstract int setTotal() {
-		int total;
-	}
+
 }
